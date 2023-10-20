@@ -1,5 +1,5 @@
 {
-  "name": "@catcolor/sdk-v2",
+  "name": "@catcolortoken/sdk-v2",
   "license": "MIT",
   "version": "2.2.0",
   "description": "🛠 An SDK for building applications on top of catcolor.",
@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catcolormeme/catcolor-sdk-v2.git"
+  },
   "keywords": [
     "catcolor",
     "ethereum"
@@ -57,5 +60,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/catcolormeme/catcolor-sdk-v2/issues"
+  },
+  "homepage": "https://github.com/catcolormeme/catcolor-sdk-v2#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "CatColor"
 }
